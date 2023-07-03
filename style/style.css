@@ -5,8 +5,8 @@ html {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color:#e830e556
-
+  background:url(/img/vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161.jpg);
+  padding: 15px;
 }
 
 .container {
@@ -63,9 +63,11 @@ body {
   width: 600px;
   margin: 0 auto;
   border: 3px solid #aaa;
-  border-radius: 5px;
+  border-radius:10px;
   padding: 10px;
   position: relative;
+  text-shadow: #9a90da;
+  font-size: medium;
 }
 
 .text-box p {
@@ -121,14 +123,16 @@ body {
 .six img {
   display: inline-block;
   max-width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
+  width: 40px;
+  top: -210px;
   left: 41.5%;
+  margin-left: 45px;
+ 
   /* transform: scale(0.1); */
 }
 
@@ -299,3 +303,4 @@ body {
     font-weight: lighter;
   }
 }
+
